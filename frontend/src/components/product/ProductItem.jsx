@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import StarRatings from "react-star-ratings";
-import "@google/model-viewer/dist/model-viewer-umd";
+import "@google/model-viewer";
 
 const ProductItem = ({ product, columnSize }) => {
   return (

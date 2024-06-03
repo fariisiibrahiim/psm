@@ -11,7 +11,7 @@ import NewReview from "../reviews/NewReview";
 import ListReviews from "../reviews/ListReviews";
 import NotFound from "../layout/NotFound";
 
-import "@google/model-viewer/dist/model-viewer-umd";
+import "@google/model-viewer";
 
 const ProductDetails = () => {
   const params = useParams();
