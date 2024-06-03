@@ -11,12 +11,15 @@ import NewReview from "../reviews/NewReview";
 import ListReviews from "../reviews/ListReviews";
 import NotFound from "../layout/NotFound";
 
+import "@google/model-viewer/dist/model-viewer-umd";
+
 const ProductDetails = () => {
   const params = useParams();
   const dispatch = useDispatch();
 
   const [quantity, setQuantity] = useState(1);
   const [activeImg, setActiveImg] = useState("");
+  const [showModel, setShowModel] = useState(true);
 
   const { data, isLoading, error, isError } = useGetProductDetailsQuery(
     params?.id
@@ -26,7 +29,9 @@ const ProductDetails = () => {
 
   useEffect(() => {
     setActiveImg(
-      product?.images[0]
+      product?.model
+        ? product?.model.url
+        : product?.images[0]
         ? product?.images[0]?.url
         : "/images/default_product.png"
     );
@@ -81,15 +86,50 @@ const ProductDetails = () => {
       <div className="row d-flex justify-content-around">
         <div className="col-12 col-lg-5 img-fluid" id="product_image">
           <div className="p-3">
-            <img
-              className="d-block w-100"
-              src={activeImg}
-              alt={product?.name}
-              width="340"
-              height="390"
-            />
+            {showModel ? (
+              <model-viewer
+                src={product?.model.url}
+                style={{
+                  width: 340,
+                  height: 390,
+                }}
+                alt="A 3D model"
+                camera-controls
+                ar
+                ar-modes="webxr quick-look scene-viewer ar"
+                auto-rotate
+              ></model-viewer>
+            ) : (
+              <img
+                className="d-block w-100"
+                src={activeImg}
+                alt={product?.name}
+                width="340"
+                height="390"
+              />
+            )}
           </div>
           <div className="row justify-content-start mt-5">
+            <div className="col-2 ms-4 mt-2">
+              <a role="button">
+                <model-viewer
+                  class={`d-block border rounded p-3 cursor-pointer ${
+                    product?.model.url === activeImg ? "border-warning" : ""
+                  } `}
+                  src={product?.model.url}
+                  style={{
+                    width: 100,
+                    height: 100,
+                  }}
+                  alt="3D thumbnail"
+                  auto-rotate
+                  onClick={(e) => {
+                    setActiveImg(product?.model.url);
+                    setShowModel(true);
+                  }}
+                ></model-viewer>
+              </a>
+            </div>
             {product?.images?.map((img) => (
               <div className="col-2 ms-4 mt-2">
                 <a role="button">
@@ -101,7 +141,10 @@ const ProductDetails = () => {
                     width="100"
                     src={img?.url}
                     alt={img?.url}
-                    onClick={(e) => setActiveImg(img.url)}
+                    onClick={(e) => {
+                      setActiveImg(img.url);
+                      setShowModel(false);
+                    }}
                   />
                 </a>
               </div>

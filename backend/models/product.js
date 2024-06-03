@@ -20,6 +20,14 @@ const productSchema = new mongoose.Schema(
       type: Number,
       default: 0,
     },
+    model: {
+      public_id: {
+        type: String,
+      },
+      url: {
+        type: String,
+      },
+    },
     images: [
       {
         public_id: {

@@ -2,20 +2,36 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import StarRatings from "react-star-ratings";
+import "@google/model-viewer/dist/model-viewer-umd";
 
 const ProductItem = ({ product, columnSize }) => {
   return (
-    <div className={`col-sm-12 col-md-6 col-lg-${columnSize} my-3`}>
+    <div
+      className={`col-sm-12 col-md-6 col-lg-${columnSize} my-3`}
+      style={{ minWidth: 330 }}
+    >
       <div className="card p-3 rounded">
-        <img
-          className="card-img-top mx-auto"
-          src={
-            product?.images[0]
-              ? product?.images[0]?.url
-              : "/images/default_product.png"
-          }
-          alt={product?.name}
-        />
+        {product?.model ? (
+          <model-viewer
+            style={{ maxWidth: 272 }}
+            src={product?.model.url}
+            alt="A 3D model"
+            camera-controls
+            ar
+            ar-modes="webxr quick-look scene-viewer ar"
+            auto-rotate
+          ></model-viewer>
+        ) : (
+          <img
+            className="card-img-top mx-auto"
+            src={
+              product?.images[0]
+                ? product?.images[0]?.url
+                : "/images/default_product.png"
+            }
+            alt={product?.name}
+          />
+        )}
         <div className="card-body ps-3 d-flex justify-content-center flex-column">
           <h5 className="card-title">
             <Link to={`/product/${product?._id}`}>{product?.name}</Link>
