@@ -17,7 +17,7 @@ const ProductItem = ({ product, columnSize }) => {
             src={product?.model.url}
             alt="A 3D model"
             camera-controls
-            ar
+            // ar
             ar-modes="webxr quick-look scene-viewer ar"
             auto-rotate
           ></model-viewer>
@@ -51,6 +51,20 @@ const ProductItem = ({ product, columnSize }) => {
             </span>
           </div>
           <p className="card-text mt-2">RM {product?.price}</p>
+          <model-viewer
+            src={product?.model.url}
+            style={{
+              height: 40,
+            }}
+            alt="A 3D model"
+            ar
+            ar-modes="webxr quick-look scene-viewer ar"
+            reveal="manual"
+          >
+            <button slot="ar-button" class={"btn btn-primary w-75"}>
+              Activate AR
+            </button>
+          </model-viewer>
           <Link
             to={`/product/${product?._id}`}
             id="view_btn"

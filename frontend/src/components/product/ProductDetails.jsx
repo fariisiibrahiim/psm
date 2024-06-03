@@ -95,7 +95,7 @@ const ProductDetails = () => {
                 }}
                 alt="A 3D model"
                 camera-controls
-                ar
+                // ar
                 ar-modes="webxr quick-look scene-viewer ar"
                 auto-rotate
               ></model-viewer>
@@ -109,6 +109,25 @@ const ProductDetails = () => {
               />
             )}
           </div>
+          <model-viewer
+            src={product?.model.url}
+            // class={"btn btn-primary ms-4"}
+            style={{
+              width: 340,
+              height: 40,
+            }}
+            alt="A 3D model"
+            ar
+            ar-modes="webxr quick-look scene-viewer ar"
+            reveal="manual"
+          >
+            <button
+              slot="ar-button"
+              class={"btn btn-primary d-inline w-100 ms-4"}
+            >
+              Activate AR
+            </button>
+          </model-viewer>
           <div className="row justify-content-start mt-5">
             <div className="col-2 ms-4 mt-2">
               <a role="button">

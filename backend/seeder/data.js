@@ -1,74 +1,48 @@
 export default [
   {
-    name: "SanDisk Ultra 128GB SDXC UHS-I Memory Card up to 80MB/s",
+    name: "Relax Sandals",
     price: 45.89,
     description:
-      "Ultra-fast cards (2) to take better pictures and Full HD videos (1) with your compact to mid-range point-and-shoot cameras and camcorders. With SanDisk Ultra SDXC UHS-I cards you’ll benefit from faster downloads, high capacity, and better performance to capture and store 128GB (5) of high quality pictures and Full HD video (1). Take advantage of ultra-fast read speeds of up to 80MB/s (3) to save time moving photos and videos from the card to your computer. From a leader in flash memory storage, SanDisk Ultra SDXC UHS-I cards are compatible with SDHC and SDXC digital devices, and come with a 10-year limited warranty (6).",
+      "Introducing Relax Sandals, the ultimate blend of comfort and style designed to give your feet the pampering they deserve. Crafted with premium, breathable materials, these sandals feature a cushioned footbed that contours to your feet for all-day support and relief. Whether you're lounging at home, taking a leisurely stroll, or running errands, Relax Sandals ensure you move with ease and elegance. The ergonomic design helps alleviate pressure and reduce fatigue, making them perfect for those who prioritize both fashion and foot health. Elevate your everyday comfort with Relax Sandals, where luxury meets practicality.",
     ratings: 4.5,
+    model: {
+      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+      url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1716919478/sandal1.glb",
+    },
     images: [
       {
         public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577488/shopit/demo/nkkjkta63uiazppzkmjf.jpg",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/urq2stx4mrezu4vqrfz6.png",
       },
       {
         public_id: "shopit/demo/hz1iwdqzrvxtfxincvju",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577488/shopit/demo/hz1iwdqzrvxtfxincvju.jpg",
-      },
-      {
-        public_id: "shopit/demo/oc2dvvkxyxukc13y9pjv",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577488/shopit/demo/oc2dvvkxyxukc13y9pjv.jpg",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/fbzxfjdkfx8gptb2deoy.png",
       },
     ],
-    category: "Electronics",
+    category: "Apparel",
     seller: "Ebay",
     stock: 50,
     numOfReviews: 32,
     reviews: [],
   },
   {
-    name: "CAN USB FD Adapter (GC-CAN-USB-FD)",
-    price: 315,
+    name: "Router",
+    price: 260,
     description:
-      "Monitor a CAN network, write a CAN program and communicate with industrial, medical, automotive or other CAN based device. Connect CAN FD and CAN networks to a computer via USB with the CAN USB FD adapter.",
-    ratings: 1.65,
-    images: [
-      {
-        public_id: "shopit/demo/e3hweb3tbp5zacfi564c",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577509/shopit/demo/e3hweb3tbp5zacfi564c.jpg",
-      },
-      {
-        public_id: "shopit/demo/mjcc0kg0lzxegrauh8qc",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577509/shopit/demo/mjcc0kg0lzxegrauh8qc.jpg",
-      },
-      {
-        public_id: "shopit/demo/iruzmpgrhb6xyqheppxg",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577509/shopit/demo/iruzmpgrhb6xyqheppxg.jpg",
-      },
-      {
-        public_id: "shopit/demo/bj3auijqcxxvkwdohznb",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577510/shopit/demo/bj3auijqcxxvkwdohznb.jpg",
-      },
-    ],
-    category: "Electronics",
-    seller: "Amazon",
-    stock: 0,
-    numOfReviews: 2,
-    reviews: [],
-  },
-  {
-    name: "CHARMOUNT Full Motion TV Wall Mount Swivel",
-    price: 26.99,
-    description:
-      "CHARMOUNT TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 - 55 TVs weight up to 88lbs 40 kg. Our tilt TV mount has a compatible faceplate that fits VESA 75X75mm (3x3). CHARMOUNT TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 - 55 TVs weight up to 88lbs 40 kg. Our tilt TV mount has a compatible faceplate that fits VESA 75X75mm (3x3) CHARMOUNT TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 - 55 TVs weight up to 88lbs 40 kg. Our tilt TV mount has a compatible faceplate that fits VESA 75X75mm (3x3).",
+      "Stay connected with our advanced Router, engineered to deliver fast, reliable internet access for all your devices. Featuring the latest technology, it ensures seamless streaming, gaming, and browsing with robust signal strength and broad coverage. Easy to set up and manage, our router comes equipped with enhanced security features to protect your network from threats. Perfect for homes and small offices, it provides the performance and reliability you need to keep your digital life running smoothly.",
     ratings: 3.5,
+    model: {
+      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+      url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1716922883/router1.glb",
+    },
     images: [
       {
         public_id: "shopit/demo/yqqwxrgst2pi3frtngaw",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577531/shopit/demo/yqqwxrgst2pi3frtngaw.jpg",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/z1ensh9iizveu8pdlstg.png",
       },
       {
         public_id: "shopit/demo/pgcwny8xyshsnwaiikbm",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577531/shopit/demo/pgcwny8xyshsnwaiikbm.jpg",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/nau5jqecybwjvesp50df.png",
       },
     ],
     category: "Electronics",
@@ -78,137 +52,205 @@ export default [
     reviews: [],
   },
   {
-    name: "Bose QuietComfort 35 II Wireless Bluetooth Headphones",
+    name: "Sony Bluetooth Speaker",
     price: 299,
     description:
-      "What happens when you clear away the noisy distractions of the world? Concentration goes to the next level. You get deeper into your music, your work, or whatever you want to focus on. That’s the power of Bose QuietComfort 35 wireless headphones II. Put them on and get closer to what you’re most passionate about. And that’s just the beginning. QuietComfort 35 wireless headphones II are now enabled with Bose AR",
+      "Immerse yourself in superior sound with the Sony Bluetooth Speaker, a compact yet powerful device that brings your music to life. Featuring cutting-edge audio technology, it delivers rich, clear sound with impressive bass, making it perfect for any setting. With its wireless connectivity and long-lasting battery, you can enjoy your favorite tunes anywhere, anytime. Stylish and portable, the Sony Bluetooth Speaker is your ideal companion for parties, picnics, and everyday listening.",
     ratings: 4.5,
+    model: {
+      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+      url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717437788/Immerstore/models/speaker1.glb",
+    },
     images: [
       {
         public_id: "shopit/demo/yxbrklp7snr7dgxfrxu9",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577543/shopit/demo/yxbrklp7snr7dgxfrxu9.jpg",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439005/Immerstore/thumb/cj4mewxbh3wy0g2q3t5e.png",
       },
       {
         public_id: "shopit/demo/i8ge1ilin2fz9tk2okni",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577543/shopit/demo/i8ge1ilin2fz9tk2okni.jpg",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/yecnvo2umatvsnc60wob.png",
       },
     ],
-    category: "Headphones",
+    category: "Electronics",
     seller: "Amazon",
     stock: 11,
     numOfReviews: 112,
     reviews: [],
   },
   {
-    name: "Apple AirPods with Charging Case (Wired)",
+    name: "Leather Bag",
+    price: 350,
+    description:
+      "Elevate your style with our luxurious Leather Bag, meticulously crafted from premium, full-grain leather to provide both durability and elegance. This timeless accessory features spacious compartments and thoughtfully designed pockets, ensuring you can carry all your essentials with ease and sophistication. The supple leather ages beautifully, developing a unique patina that tells your personal story. Perfect for both professional and casual settings, our Leather Bag is a versatile piece that combines functionality with a touch of class.",
+    ratings: 5,
+    model: {
+      public_id: "Immerstore/models/bag1",
+      url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717438962/Immerstore/models/bag1.glb",
+    },
+    images: [
+      {
+        public_id: "shopit/demo/mq0zpyzmzqokphs9m9we",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439006/Immerstore/thumb/bx6m8k0m3wut7kpdgnsv.png",
+      },
+      {
+        public_id: "shopit/demo/pkyy8rifxpesiwpy23kk",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439005/Immerstore/thumb/ua56slnrgn99hll41t7v.png",
+      },
+    ],
+    category: "Cameras",
+    seller: "Kauffman's Fruit Farm & Market",
+    stock: 500,
+    numOfReviews: 1,
+    reviews: [],
+  },
+  {
+    name: "Stanley Tumbler",
     price: 126.99,
     description:
-      "AirPods with Charging Case: More than 24 hours listening time, up to 18 hours talk time; AirPods (single charge): Up to 5 hours listening time, up to 3 hours talk time or 15 minutes in the case equals up to 3 hours listening time or up to 2 hours talk time.",
+      "Keep your beverages at the perfect temperature with the Stanley Tumbler, designed for durability and convenience. Whether you're enjoying a hot coffee on a cold morning or a refreshing iced drink on a hot day, this tumbler's double-wall vacuum insulation maintains your drink's ideal temperature for hours. Made from high-quality stainless steel, it’s tough enough to withstand everyday use while retaining its sleek, stylish look. With its secure, leak-proof lid and easy-to-clean design, the Stanley Tumbler is perfect for life on the go.",
     ratings: 4.8,
+    model: {
+      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+      url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717437791/Immerstore/models/tumbler1.glb",
+    },
     images: [
       {
         public_id: "shopit/demo/yj00oalanbzmbzctsbln",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577557/shopit/demo/yj00oalanbzmbzctsbln.jpg",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/nhwlfwjfth1gkt7mlifm.png",
       },
       {
         public_id: "shopit/demo/mijzcdd5sle8a2any1i8",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577557/shopit/demo/mijzcdd5sle8a2any1i8.jpg",
-      },
-      {
-        public_id: "shopit/demo/kxckb0o7fbdwqgmugoct",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577557/shopit/demo/kxckb0o7fbdwqgmugoct.jpg",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439005/Immerstore/thumb/kvwl7ay1zghrehze9vlv.png",
       },
     ],
-    category: "Electronics",
+    category: "Home",
     seller: "Amazon",
     stock: 122,
     numOfReviews: 2671,
     reviews: [],
   },
   {
-    name: "Cable Boom Microphone - Volume Control for Playstation PS4 or Xbox",
-    price: 27.99,
+    name: "White Guy Figure Toy",
+    price: 60,
     description:
-      "DESIGN INFO - 3.5mm male to 2.5mm male audio cable adapter with Upgraded Flexible, Detachable Boom Mic which also enables rotary Volume Control and Mute Switch. SteelFlex Arm for perfect microphone positioning. INPUT COMPATIBILITY - Devices supporting 3.5mm audio output such as gaming PS4 / Xbox One controller, PC, Laptop, iPhone and Android Phone.",
+      "Meet the White Guy Figure Toy, a playful and charming companion designed to bring joy and imagination to kids and collectors alike. This vibrant, detailed figure is crafted from high-quality materials to ensure durability and long-lasting fun. With its expressive features and dynamic pose, White Guy is ready for countless adventures, whether on display or as part of creative play. Perfect for fans of whimsical characters, this figure adds a touch of color and excitement to any collection.",
+    ratings: 3.65,
+    model: {
+      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+      url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717437789/Immerstore/models/greenguy1.glb",
+    },
+    images: [
+      {
+        public_id: "shopit/demo/e3hweb3tbp5zacfi564c",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/mivfsbexqfhqnypq6xeo.png",
+      },
+      {
+        public_id: "shopit/demo/mjcc0kg0lzxegrauh8qc",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439003/Immerstore/thumb/ypbqgdtkqtsfff6hzvgv.png",
+      },
+    ],
+    category: "Toys",
+    seller: "Amazon",
+    stock: 0,
+    numOfReviews: 2,
+    reviews: [],
+  },
+  {
+    name: "MacBook Pro",
+    price: 5000,
+    description:
+      "Unleash your creativity with the MacBook Pro, a powerhouse of performance and innovation. Featuring a stunning Retina display, cutting-edge processors, and lightning-fast storage, this laptop is designed to handle the most demanding tasks with ease. Whether you're editing videos, designing graphics, or running complex simulations, the MacBook Pro offers unparalleled speed and efficiency. Its sleek, lightweight design and long battery life make it the perfect companion for professionals and creatives who need power and portability in one sophisticated package.",
     ratings: 4.1,
+    model: {
+      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+      url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717437782/Immerstore/models/macbook1.glb",
+    },
     images: [
       {
         public_id: "shopit/demo/xmndneguqtrcutpf9wcz",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577572/shopit/demo/xmndneguqtrcutpf9wcz.jpg",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/rpkgpts4vlzdi7dmou1l.png",
+      },
+      {
+        public_id: "shopit/demo/xmndneguqtrcutpf9wcz",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/rhthmwehhwpqqdzvskui.png",
       },
     ],
-    category: "Accessories",
+    category: "Laptops",
     seller: "Amazon",
     stock: 1123,
     numOfReviews: 6,
     reviews: [],
   },
   {
-    name: "Nikon D3500 W/ AF-P DX NIKKOR 18-55mm f/3.5-5.6G VR Black",
-    price: 496.95,
+    name: "Dumbbell",
+    price: 50.95,
     description:
-      "You don't need to be a photographer to know a great photo when you see one. And you don't need to be a photographer to take a great photo—you just need the D3500. It's as easy to use as a point-and-shoot, but it takes beautiful DSLR photos and videos that get noticed. It feels outstanding in your hands, sturdy and balanced with controls where you want them. It's compact, durable and versatile, ideal for travel. And it works seamlessly with compatible smartphones, making it easier than ever to share your great photos. Even if you've never picked up a DSLR camera, you can take beautiful pictures with D3500.",
+      "Enhance your fitness routine with our versatile Dumbbell, designed to help you build strength and tone muscles efficiently. Made from high-quality, durable materials, this dumbbell offers a comfortable grip and balanced weight distribution, ensuring safe and effective workouts. Whether you're performing curls, presses, or squats, our dumbbell is an essential addition to any home gym, supporting a wide range of exercises to target every muscle group. Get ready to achieve your fitness goals with this reliable and indispensable tool.",
     ratings: 4.7,
+    model: {
+      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+      url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717437781/Immerstore/models/dumbbell1.glb",
+    },
     images: [
       {
         public_id: "shopit/demo/q6ybe84qlkzwet9qwptz",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577585/shopit/demo/q6ybe84qlkzwet9qwptz.jpg",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439003/Immerstore/thumb/hejdyvyiup6apgnsdytq.png",
       },
       {
         public_id: "shopit/demo/niqqio1faynnscubkkmd",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577585/shopit/demo/niqqio1faynnscubkkmd.jpg",
-      },
-      {
-        public_id: "shopit/demo/dy3nhjgsdgqcnrwf8u2h",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577585/shopit/demo/dy3nhjgsdgqcnrwf8u2h.jpg",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439006/Immerstore/thumb/wsolcddefyd68lsxacwu.png",
       },
     ],
-    category: "Cameras",
+    category: "Sports",
     seller: "Amazon",
     stock: 131,
     numOfReviews: 222,
     reviews: [],
   },
   {
-    name: "Apple MacBook Air (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray",
-    price: 949.99,
+    name: "Canon AT-1 Camera",
+    price: 2000,
     description:
-      "Stunning 13.3-inch Retina display with True Tone technology, Backlit Magic Keyboard and Touch ID, Tenth-generation, Intel Core i3 processor, Intel Iris Plus Graphics, Fast SSD storage, 8GB of memory, Stereo speakers with wider stereo sound",
-    ratings: 4.9,
-    images: [
-      {
-        public_id: "shopit/demo/jzqaj98nnhy0hcsilx9y",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577597/shopit/demo/jzqaj98nnhy0hcsilx9y.jpg",
-      },
-      {
-        public_id: "shopit/demo/welkq4dgfi5267usmj0n",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577597/shopit/demo/welkq4dgfi5267usmj0n.jpg",
-      },
-      {
-        public_id: "shopit/demo/pabtjloyzenmr6z8klcr",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577600/shopit/demo/pabtjloyzenmr6z8klcr.jpg",
-      },
-    ],
-    category: "Laptops",
-    seller: "Amazon",
-    stock: 0,
-    numOfReviews: 56,
-    reviews: [],
-  },
-  {
-    name: "Kauffman Orchards Homegrown McIntosh Apples",
-    price: 2.75,
-    description:
-      "McIntosh is a pretty red/green apple with white flesh Homegrown in Kauffman's orchard in healthy Lancaster County soil McIntosh apples are famous for snacking, pies, salads, and applesauce Protected with soft, high-density foam for safe shipping to your door Not for sale to California, Oregon, or Washington due to state laws governing fresh produce",
+      "Capture life's moments with the Canon AT-1 Camera, a classic piece of photographic history renowned for its precision and reliability. This vintage 35mm film camera offers full manual controls, allowing photography enthusiasts to master the art of exposure and focus. Its robust build and intuitive design make it a joy to use, whether you're a seasoned photographer or a beginner exploring the world of film. With the Canon AT-1, every shot is an opportunity to create a timeless piece of art.",
     ratings: 5,
+    model: {
+      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+      url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717437783/Immerstore/models/camera1.glb",
+    },
     images: [
       {
         public_id: "shopit/demo/mq0zpyzmzqokphs9m9we",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577619/shopit/demo/mq0zpyzmzqokphs9m9we.jpg",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439006/Immerstore/thumb/esrll0afhoa4kmu4lmcl.png",
       },
       {
         public_id: "shopit/demo/pkyy8rifxpesiwpy23kk",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577619/shopit/demo/pkyy8rifxpesiwpy23kk.jpg",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439005/Immerstore/thumb/kiplsms9lfp5uit6veum.png",
+      },
+    ],
+    category: "Cameras",
+    seller: "Kauffman's Fruit Farm & Market",
+    stock: 500,
+    numOfReviews: 1,
+    reviews: [],
+  },
+  {
+    name: "Fresh Apple",
+    price: 30,
+    description:
+      "Experience the crisp, refreshing taste of our Fresh Apple, handpicked at the peak of ripeness to ensure maximum flavor and juiciness. Perfect for a healthy snack, our apples are packed with essential vitamins and antioxidants, making them not only delicious but also nutritious. Enjoy the satisfying crunch and natural sweetness in every bite, whether you’re at home, at work, or on the go. Ideal for adding to your favorite recipes, salads, or simply enjoying as is, our Fresh Apple is the epitome of nature’s goodness.",
+    ratings: 2.5,
+    model: {
+      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+      url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717437784/Immerstore/models/apple1.glb",
+    },
+    images: [
+      {
+        public_id: "shopit/demo/mq0zpyzmzqokphs9m9we",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439005/Immerstore/thumb/pccu0wbpqvpilp7kth2v.png",
+      },
+      {
+        public_id: "shopit/demo/pkyy8rifxpesiwpy23kk",
+        url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439005/Immerstore/thumb/pn4zxlanebmfkgbs2ibs.png",
       },
     ],
     category: "Food",
