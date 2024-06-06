@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <nav className="navbar row">
       <div className="col-12 col-md-3 ps-5">
-        <div className="navbar-brand">
+        <div className="navbar-brand text-center">
           <a href="/">
             <img src="/images/immerstore_logo.png" alt="ShopIT Logo" />
           </a>

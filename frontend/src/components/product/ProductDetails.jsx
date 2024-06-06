@@ -85,10 +85,11 @@ const ProductDetails = () => {
       <MetaData title={product?.name} />
       <div className="row d-flex justify-content-around">
         <div className="col-12 col-lg-5 img-fluid" id="product_image">
-          <div className="p-3">
+          <div className="p-3 bg-light overflow-hidden">
             {showModel ? (
               <model-viewer
                 src={product?.model.url}
+                class="d-block w-100 img-fluid"
                 style={{
                   width: 340,
                   height: 390,
@@ -101,7 +102,7 @@ const ProductDetails = () => {
               ></model-viewer>
             ) : (
               <img
-                className="d-block w-100"
+                className="d-block w-100 img-fluid"
                 src={activeImg}
                 alt={product?.name}
                 width="340"
@@ -111,7 +112,7 @@ const ProductDetails = () => {
           </div>
           <model-viewer
             src={product?.model.url}
-            // class={"btn btn-primary ms-4"}
+            class="d-block w-100"
             style={{
               width: 340,
               height: 40,
@@ -121,15 +122,12 @@ const ProductDetails = () => {
             ar-modes="webxr quick-look scene-viewer ar"
             reveal="manual"
           >
-            <button
-              slot="ar-button"
-              class={"btn btn-primary d-inline w-100 ms-4"}
-            >
+            <button slot="ar-button" class="btn btn-primary w-100">
               Activate AR
             </button>
           </model-viewer>
-          <div className="row justify-content-start mt-5">
-            <div className="col-2 ms-4 mt-2">
+          <div className="row justify-content-start mt-5 g-4">
+            <div className="col-3 mx-2 mt-2">
               <a role="button">
                 <model-viewer
                   class={`d-block border rounded p-3 cursor-pointer ${
@@ -150,7 +148,7 @@ const ProductDetails = () => {
               </a>
             </div>
             {product?.images?.map((img) => (
-              <div className="col-2 ms-4 mt-2">
+              <div className="col-3 mx-2 mt-2 overflow-hidden">
                 <a role="button">
                   <img
                     className={`d-block border rounded p-3 cursor-pointer ${

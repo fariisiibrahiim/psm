@@ -7,35 +7,36 @@ import "@google/model-viewer";
 const ProductItem = ({ product, columnSize }) => {
   return (
     <div
-      className={`col-sm-12 col-md-6 col-lg-${columnSize} my-3`}
-      style={{ minWidth: 330 }}
+      className={`col-sm-12 col-md-6 col-lg-${columnSize} col-xl-3 my-3 overflow-hidden`}
     >
-      <div className="card p-3 rounded">
-        {product?.model ? (
-          <model-viewer
-            style={{ maxWidth: 272 }}
-            src={product?.model.url}
-            alt="A 3D model"
-            camera-controls
-            // ar
-            ar-modes="webxr quick-look scene-viewer ar"
-            auto-rotate
-          ></model-viewer>
-        ) : (
-          <img
-            className="card-img-top mx-auto"
-            src={
-              product?.images[0]
-                ? product?.images[0]?.url
-                : "/images/default_product.png"
-            }
-            alt={product?.name}
-          />
-        )}
+      <div className="card rounded">
+        <div className="position-relative bg-light overflow-hidden">
+          {product?.model ? (
+            <model-viewer
+              src={product?.model.url}
+              poster={product?.images[0]?.url}
+              alt="A 3D model"
+              class={"w-100"}
+              style={{ width: 300, height: 300 }}
+              camera-controls
+              auto-rotate
+            ></model-viewer>
+          ) : (
+            <img
+              className="card-img-top mx-auto"
+              src={
+                product?.images[0]
+                  ? product?.images[0]?.url
+                  : "/images/default_product.png"
+              }
+              alt={product?.name}
+            />
+          )}
+        </div>
         <div className="card-body ps-3 d-flex justify-content-center flex-column">
-          <h5 className="card-title">
+          <h4 className="card-title text-center p-4">
             <Link to={`/product/${product?._id}`}>{product?.name}</Link>
-          </h5>
+          </h4>
           <div className="ratings mt-auto d-flex">
             <StarRatings
               rating={product?.ratings}
@@ -53,6 +54,7 @@ const ProductItem = ({ product, columnSize }) => {
           <p className="card-text mt-2">RM {product?.price}</p>
           <model-viewer
             src={product?.model.url}
+            class={"d-block w-100"}
             style={{
               height: 40,
             }}
@@ -61,7 +63,7 @@ const ProductItem = ({ product, columnSize }) => {
             ar-modes="webxr quick-look scene-viewer ar"
             reveal="manual"
           >
-            <button slot="ar-button" class={"btn btn-primary w-75"}>
+            <button slot="ar-button" className={"btn btn-primary w-100"}>
               Activate AR
             </button>
           </model-viewer>

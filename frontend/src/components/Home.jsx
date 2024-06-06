@@ -32,7 +32,7 @@ const Home = () => {
     }
   }, [isError]);
 
-  const columnSize = keyword ? 4 : 3;
+  const columnSize = keyword ? 6 : 4;
 
   if (isLoading) return <Loader />;
 
@@ -40,23 +40,28 @@ const Home = () => {
     <>
       <MetaData title={"Buy Best Products Online"} />
       <div className="row">
-        {keyword && (
+        {/* {keyword && (
           <div className="col-6 col-md-3 mt-5">
             <Filters />
           </div>
-        )}
-        <div className={keyword ? "col-6 col-md-9" : "col-6 col-md-12"}>
+        )} */}
+        <div
+        // className={keyword ? "col-6 col-md-9" : "col-6 col-md-12"}
+        >
           <h1 id="products_heading" className="text-secondary">
             {keyword
               ? `${data?.products?.length} Products found with keyword: ${keyword}`
               : "Latest Products"}
           </h1>
+          <h4>Pro tip: You can rotate the 3D models using gestures</h4>
 
-          <section id="products" className="mt-5">
-            <div className="row">
-              {data?.products?.map((product) => (
-                <ProductItem product={product} columnSize={columnSize} />
-              ))}
+          <section id="products" className="mt-5 container-xxl py-5">
+            <div className="container p-0">
+              <div className="row g-4 justify-content-center">
+                {data?.products?.map((product) => (
+                  <ProductItem product={product} columnSize={columnSize} />
+                ))}
+              </div>
             </div>
           </section>
 
