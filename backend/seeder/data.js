@@ -6,16 +6,16 @@ export default [
       "Introducing Relax Sandals, the ultimate blend of comfort and style designed to give your feet the pampering they deserve. Crafted with premium, breathable materials, these sandals feature a cushioned footbed that contours to your feet for all-day support and relief. Whether you're lounging at home, taking a leisurely stroll, or running errands, Relax Sandals ensure you move with ease and elegance. The ergonomic design helps alleviate pressure and reduce fatigue, making them perfect for those who prioritize both fashion and foot health. Elevate your everyday comfort with Relax Sandals, where luxury meets practicality.",
     ratings: 4.5,
     model: {
-      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
-      url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1716919478/sandal1.glb",
+      public_id: "Immerstore/models/sandal1",
+      url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717437781/Immerstore/models/sandal1.glb",
     },
     images: [
       {
-        public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+        public_id: "Immerstore/thumb/urq2stx4mrezu4vqrfz6",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/urq2stx4mrezu4vqrfz6.png",
       },
       {
-        public_id: "shopit/demo/hz1iwdqzrvxtfxincvju",
+        public_id: "Immerstore/thumb/fbzxfjdkfx8gptb2deoy",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/fbzxfjdkfx8gptb2deoy.png",
       },
     ],
@@ -32,16 +32,16 @@ export default [
       "Stay connected with our advanced Router, engineered to deliver fast, reliable internet access for all your devices. Featuring the latest technology, it ensures seamless streaming, gaming, and browsing with robust signal strength and broad coverage. Easy to set up and manage, our router comes equipped with enhanced security features to protect your network from threats. Perfect for homes and small offices, it provides the performance and reliability you need to keep your digital life running smoothly.",
     ratings: 3.5,
     model: {
-      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
-      url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1716922883/router1.glb",
+      public_id: "Immerstore/models/router1",
+      url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717437783/Immerstore/models/router1.glb",
     },
     images: [
       {
-        public_id: "shopit/demo/yqqwxrgst2pi3frtngaw",
+        public_id: "Immerstore/thumb/z1ensh9iizveu8pdlstg",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/z1ensh9iizveu8pdlstg.png",
       },
       {
-        public_id: "shopit/demo/pgcwny8xyshsnwaiikbm",
+        public_id: "Immerstore/thumb/nau5jqecybwjvesp50df",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/nau5jqecybwjvesp50df.png",
       },
     ],
@@ -58,16 +58,16 @@ export default [
       "Immerse yourself in superior sound with the Sony Bluetooth Speaker, a compact yet powerful device that brings your music to life. Featuring cutting-edge audio technology, it delivers rich, clear sound with impressive bass, making it perfect for any setting. With its wireless connectivity and long-lasting battery, you can enjoy your favorite tunes anywhere, anytime. Stylish and portable, the Sony Bluetooth Speaker is your ideal companion for parties, picnics, and everyday listening.",
     ratings: 4.5,
     model: {
-      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+      public_id: "Immerstore/models/speaker1",
       url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717437788/Immerstore/models/speaker1.glb",
     },
     images: [
       {
-        public_id: "shopit/demo/yxbrklp7snr7dgxfrxu9",
+        public_id: "Immerstore/thumb/cj4mewxbh3wy0g2q3t5e",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439005/Immerstore/thumb/cj4mewxbh3wy0g2q3t5e.png",
       },
       {
-        public_id: "shopit/demo/i8ge1ilin2fz9tk2okni",
+        public_id: "Immerstore/thumb/yecnvo2umatvsnc60wob",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/yecnvo2umatvsnc60wob.png",
       },
     ],
@@ -89,11 +89,11 @@ export default [
     },
     images: [
       {
-        public_id: "shopit/demo/mq0zpyzmzqokphs9m9we",
+        public_id: "Immerstore/thumb/bx6m8k0m3wut7kpdgnsv",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439006/Immerstore/thumb/bx6m8k0m3wut7kpdgnsv.png",
       },
       {
-        public_id: "shopit/demo/pkyy8rifxpesiwpy23kk",
+        public_id: "Immerstore/thumb/ua56slnrgn99hll41t7v",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439005/Immerstore/thumb/ua56slnrgn99hll41t7v.png",
       },
     ],
@@ -110,16 +110,16 @@ export default [
       "Keep your beverages at the perfect temperature with the Stanley Tumbler, designed for durability and convenience. Whether you're enjoying a hot coffee on a cold morning or a refreshing iced drink on a hot day, this tumbler's double-wall vacuum insulation maintains your drink's ideal temperature for hours. Made from high-quality stainless steel, it’s tough enough to withstand everyday use while retaining its sleek, stylish look. With its secure, leak-proof lid and easy-to-clean design, the Stanley Tumbler is perfect for life on the go.",
     ratings: 4.8,
     model: {
-      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+      public_id: "Immerstore/models/tumbler1",
       url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717437791/Immerstore/models/tumbler1.glb",
     },
     images: [
       {
-        public_id: "shopit/demo/yj00oalanbzmbzctsbln",
+        public_id: "Immerstore/thumb/nhwlfwjfth1gkt7mlifm",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/nhwlfwjfth1gkt7mlifm.png",
       },
       {
-        public_id: "shopit/demo/mijzcdd5sle8a2any1i8",
+        public_id: "Immerstore/thumb/kvwl7ay1zghrehze9vlv",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439005/Immerstore/thumb/kvwl7ay1zghrehze9vlv.png",
       },
     ],
@@ -136,16 +136,16 @@ export default [
       "Meet the White Guy Figure Toy, a playful and charming companion designed to bring joy and imagination to kids and collectors alike. This vibrant, detailed figure is crafted from high-quality materials to ensure durability and long-lasting fun. With its expressive features and dynamic pose, White Guy is ready for countless adventures, whether on display or as part of creative play. Perfect for fans of whimsical characters, this figure adds a touch of color and excitement to any collection.",
     ratings: 3.65,
     model: {
-      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+      public_id: "Immerstore/models/greenguy1",
       url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717437789/Immerstore/models/greenguy1.glb",
     },
     images: [
       {
-        public_id: "shopit/demo/e3hweb3tbp5zacfi564c",
+        public_id: "Immerstore/thumb/mivfsbexqfhqnypq6xeo",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/mivfsbexqfhqnypq6xeo.png",
       },
       {
-        public_id: "shopit/demo/mjcc0kg0lzxegrauh8qc",
+        public_id: "Immerstore/thumb/ypbqgdtkqtsfff6hzvgv",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439003/Immerstore/thumb/ypbqgdtkqtsfff6hzvgv.png",
       },
     ],
@@ -162,16 +162,16 @@ export default [
       "Unleash your creativity with the MacBook Pro, a powerhouse of performance and innovation. Featuring a stunning Retina display, cutting-edge processors, and lightning-fast storage, this laptop is designed to handle the most demanding tasks with ease. Whether you're editing videos, designing graphics, or running complex simulations, the MacBook Pro offers unparalleled speed and efficiency. Its sleek, lightweight design and long battery life make it the perfect companion for professionals and creatives who need power and portability in one sophisticated package.",
     ratings: 4.1,
     model: {
-      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+      public_id: "Immerstore/models/macbook1",
       url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717437782/Immerstore/models/macbook1.glb",
     },
     images: [
       {
-        public_id: "shopit/demo/xmndneguqtrcutpf9wcz",
+        public_id: "Immerstore/thumb/rpkgpts4vlzdi7dmou1l",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/rpkgpts4vlzdi7dmou1l.png",
       },
       {
-        public_id: "shopit/demo/xmndneguqtrcutpf9wcz",
+        public_id: "Immerstore/thumb/rhthmwehhwpqqdzvskui",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439004/Immerstore/thumb/rhthmwehhwpqqdzvskui.png",
       },
     ],
@@ -188,16 +188,16 @@ export default [
       "Enhance your fitness routine with our versatile Dumbbell, designed to help you build strength and tone muscles efficiently. Made from high-quality, durable materials, this dumbbell offers a comfortable grip and balanced weight distribution, ensuring safe and effective workouts. Whether you're performing curls, presses, or squats, our dumbbell is an essential addition to any home gym, supporting a wide range of exercises to target every muscle group. Get ready to achieve your fitness goals with this reliable and indispensable tool.",
     ratings: 4.7,
     model: {
-      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+      public_id: "Immerstore/models/dumbbell1",
       url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717437781/Immerstore/models/dumbbell1.glb",
     },
     images: [
       {
-        public_id: "shopit/demo/q6ybe84qlkzwet9qwptz",
+        public_id: "Immerstore/thumb/hejdyvyiup6apgnsdytq",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439003/Immerstore/thumb/hejdyvyiup6apgnsdytq.png",
       },
       {
-        public_id: "shopit/demo/niqqio1faynnscubkkmd",
+        public_id: "Immerstore/thumb/wsolcddefyd68lsxacwu",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439006/Immerstore/thumb/wsolcddefyd68lsxacwu.png",
       },
     ],
@@ -214,16 +214,16 @@ export default [
       "Capture life's moments with the Canon AT-1 Camera, a classic piece of photographic history renowned for its precision and reliability. This vintage 35mm film camera offers full manual controls, allowing photography enthusiasts to master the art of exposure and focus. Its robust build and intuitive design make it a joy to use, whether you're a seasoned photographer or a beginner exploring the world of film. With the Canon AT-1, every shot is an opportunity to create a timeless piece of art.",
     ratings: 5,
     model: {
-      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+      public_id: "Immerstore/models/camera1",
       url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717437783/Immerstore/models/camera1.glb",
     },
     images: [
       {
-        public_id: "shopit/demo/mq0zpyzmzqokphs9m9we",
+        public_id: "Immerstore/thumb/esrll0afhoa4kmu4lmcl",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439006/Immerstore/thumb/esrll0afhoa4kmu4lmcl.png",
       },
       {
-        public_id: "shopit/demo/pkyy8rifxpesiwpy23kk",
+        public_id: "Immerstore/thumb/kiplsms9lfp5uit6veum",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439005/Immerstore/thumb/kiplsms9lfp5uit6veum.png",
       },
     ],
@@ -240,16 +240,16 @@ export default [
       "Experience the crisp, refreshing taste of our Fresh Apple, handpicked at the peak of ripeness to ensure maximum flavor and juiciness. Perfect for a healthy snack, our apples are packed with essential vitamins and antioxidants, making them not only delicious but also nutritious. Enjoy the satisfying crunch and natural sweetness in every bite, whether you’re at home, at work, or on the go. Ideal for adding to your favorite recipes, salads, or simply enjoying as is, our Fresh Apple is the epitome of nature’s goodness.",
     ratings: 2.5,
     model: {
-      public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
+      public_id: "Immerstore/models/apple1",
       url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717437784/Immerstore/models/apple1.glb",
     },
     images: [
       {
-        public_id: "shopit/demo/mq0zpyzmzqokphs9m9we",
+        public_id: "Immerstore/thumb/pccu0wbpqvpilp7kth2v",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439005/Immerstore/thumb/pccu0wbpqvpilp7kth2v.png",
       },
       {
-        public_id: "shopit/demo/pkyy8rifxpesiwpy23kk",
+        public_id: "Immerstore/thumb/pn4zxlanebmfkgbs2ibs",
         url: "https://res.cloudinary.com/dx5ap4nys/image/upload/v1717439005/Immerstore/thumb/pn4zxlanebmfkgbs2ibs.png",
       },
     ],
